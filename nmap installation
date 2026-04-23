@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt install nmap
+nmap --version
+
+example: nmap scanme.nmap.org
+nmap -p 80,443 scanme.nmap.org
+nmap -sV scanme.nmap.org
